@@ -16,9 +16,9 @@ describe Pizza do
 
       expect(pizza.toppings).to eq(toppings)
     end
-  # end
-  # it "exists" do
-  #   expect(Pizza).to be_a(Class)
+  end
+  it "exists" do
+    expect(Pizza).to be_a(Class)
   end
 end
 
@@ -35,7 +35,7 @@ describe Topping do
       expect(topping.vegetarian).to eq(true)
     end
   end
-  # it "exists" do
-  #   expect(Topping).to be_a(Class)
-  # end
+  it "exists" do
+    expect(Topping).to be_a(Class)
+  end
 end
